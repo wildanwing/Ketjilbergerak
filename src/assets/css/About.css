@@ -1,0 +1,339 @@
+.aboutimg{
+    width: 590px;
+    height: 277px;
+}
+
+.imgcapt{
+    width: 608px;
+    height: 25px;
+
+    margin: 0 auto;
+    margin-bottom: 64px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 155.8%;
+    /* identical to box height, or 25px */
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #000000;
+
+}
+
+.title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 155.8%;
+    /* identical to box height, or 50px */
+
+    text-transform: capitalize;
+
+    /* merah */
+
+    color: #F43B31;
+
+    margin-bottom: 64px;
+}
+
+.vidcapt{
+    width: 591px;
+    height: 260px;
+    margin-bottom: 128px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+
+    /* warna tulisan */
+
+    color: #3C3C3C;
+}
+
+.caption1a{
+    position: absolute;
+    left: 14.5%;
+    top: 1300px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    /* identical to box height */
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+  
+    /* merah */
+  
+    color: #F43B31;
+}
+
+
+
+.caption2a{
+    position: absolute;
+    left: 42.8%;
+    top: 1300px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+  
+    /* merah */
+  
+    color: #F43B31;
+
+}
+
+.caption3a{
+    position: absolute;
+    left: 72%;
+    top: 1300px;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+  
+    /* merah */
+  
+    color: #F43B31;
+}
+
+.border1a{
+    border-style: solid;
+    border-width: 0;
+    border-radius: 10px;
+    padding: 71.47px 116px 300px 116px;
+}
+
+.caption1ab{
+    position: absolute;
+    left: 10%;
+    right: 67.78%;
+    top: 1350px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: lowercase;
+
+    /* tulisan grey */
+
+    color: #7C7C7C;
+}
+
+.caption2ab{
+    position: absolute;
+    left: 38.61%;
+    right: 38.61%;
+    top: 1350px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: lowercase;
+
+    /* tulisan grey */
+
+    color: #7C7C7C;
+}
+
+.caption3ab{
+    position: absolute;
+    left: 67.78%;
+    right: 10%;
+    top: 1350px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: lowercase;
+
+    /* tulisan grey */
+
+    color: #7C7C7C;
+}
+
+.rasa:hover + .caption1a,
+.karsa:hover + .caption2a,
+.ilmu:hover + .caption3a {
+    color: #FFFFFF !important;
+    background-color: #F43B31;
+}
+
+.rasa:hover + .caption1a + .caption1ab,
+.karsa:hover + .caption2a + .caption2ab, 
+.ilmu:hover + .caption3a + .caption3ab {
+    color: #FFFFFF !important;
+    background-color: #F43B31;
+}
+
+.pic{
+    width: 262px;
+    height: 262px;
+    margin: 0px 50px 161px ;
+}
+
+.nama{
+    position: absolute;
+    width: 267px;
+    height: 33px;
+    left: 159px;
+    top: 2025px;
+}
+
+.role{
+    position: absolute;
+    width: 267px;
+    height: 36px;
+    left: 211px;
+    top: 2060px;
+}
+
+.nama1{
+    position: absolute;
+    width: 267px;
+    height: 33px;
+    left: 535px;
+    top: 2025px;
+}
+
+.role1{
+    position: absolute;
+    width: 267px;
+    height: 36px;
+    left: 598px;
+    top: 2060px;
+}
+
+.nama2{
+    position: absolute;
+    width: 267px;
+    height: 33px;
+    left: 893px;
+    top: 2025px;
+}
+
+.role2{
+    position: absolute;
+    width: 267px;
+    height: 36px;
+    left: 955px;
+    top: 2060px;
+}
+
+.nama3{
+    position: absolute;
+    width: 267px;
+    height: 33px;
+    left: 159px;
+    top: 2450px;
+}
+
+.role3{
+    position: absolute;
+    width: 267px;
+    height: 36px;
+    left: 265px;
+    top: 2485px;
+}
+
+.nama4{
+    position: absolute;
+    width: 267px;
+    height: 33px;
+    left: 533px;
+    top: 2450px;
+}
+
+.role4{
+    position: absolute;
+    width: 267px;
+    height: 36px;
+    left: 560px;
+    top: 2485px;
+}
+
+.nama5{
+    position: absolute;
+    width: 267px;
+    height: 33px;
+    left: 895px;
+    top: 2450px;
+}
+
+.role5{
+    position: absolute;
+    width: 267px;
+    height: 36px;
+    left: 945px;
+    top: 2485px;
+}
+
+.nama, .nama1, .nama2, .nama3, .nama4, .nama5{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 163.35%;
+    /* or 39px */
+
+    text-align: center;
+
+    /* warna tulisan */
+
+    color: #3C3C3C;
+}
+
+.role, .role1, .role2, .role3, .role4, .role5{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    /* warna tulisan */
+
+    color: #3C3C3C;
+    opacity: 0.5;
+}

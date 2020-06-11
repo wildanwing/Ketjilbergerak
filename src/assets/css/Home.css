@@ -1,0 +1,177 @@
+
+/* searchbar */
+.srchbr{
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.08;
+    letter-spacing: normal;
+    color: #3c3c3c;
+    border-radius: 20px;
+}
+
+/* header */
+.header1 {
+    width: auto;
+    height: 60px;
+    font-family: Poppins;
+    font-size: 33px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3C3C3C;
+    margin-bottom: 64px;
+    margin-top: 87px ;
+}
+  
+/* carousel */
+.readnext {
+    width: 181px;
+    height: 40px;
+}
+  
+.ccapt{
+    margin-left: -130px;
+    margin-top: 5px;
+    position: absolute;
+    width: 800px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+  
+/* kategori donasi */
+.kat{
+    margin-top: 80px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 51px;
+    color: #3C3C3C;
+}
+  
+.pkat{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #7C7C7C;
+}
+  
+.border1{
+    border-style: solid;
+    border-width: 0;
+    border-radius: 10px;
+    padding: 71.47px 116px 173.23px 116px;
+}
+  
+  
+.rasa{
+    width: 30%;
+    height: 30%;
+    margin-right: 55px;
+}
+  
+.karsa{
+    width: 30%;
+    height: 30%;
+}
+  
+.ilmu{
+    width: 30%;
+    height: 30%;
+    margin-left: 55px;
+}
+  
+.caption1 {
+    position: absolute;
+    left: 14.5%;
+    top: 180%;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    /* identical to box height */
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+  
+    /* merah */
+  
+    color: #F43B31;
+}
+  
+.caption2 {
+    position: absolute;
+    left: 42.8%;
+    top: 180%;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+  
+    /* merah */
+  
+    color: #F43B31;
+}
+  
+.caption3 {
+    position: absolute;
+    left: 72%;
+    top: 180%;
+  
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+  
+    /* merah */
+  
+    color: #F43B31;
+}
+  
+.rasa:hover + .caption1,
+.karsa:hover + .caption2,
+.ilmu:hover + .caption3 {
+    color: #FFFFFF !important;
+    background-color: #F43B31;
+}
+  
+.rasa:hover,
+  .karsa:hover,
+  .ilmu:hover{
+    color: #FFFFFF !important;
+    background-color: #F43B31;
+}
+  
+/* counter banner */
+.counter{
+    width: 1110px ;
+    height: 432px;
+    object-fit: contain;
+}
