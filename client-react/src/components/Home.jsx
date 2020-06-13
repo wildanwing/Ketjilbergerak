@@ -20,6 +20,11 @@ import Readnext from '../screens/Readnext';
 import Readnext1 from '../screens/Readnext1';
 import Readnext2 from '../screens/Readnext2';
 
+import NewsContent from "../components/NewsContent";
+import Testimony from "../components/Testimony";
+
+import landingPage from '../json/landingPage.json';
+
 class Home extends React.Component{
     render(){
         return(
@@ -114,6 +119,9 @@ class Home extends React.Component{
                 <div>
                     <img src={counter} alt="counter.svg" className="counter" />
                 </div>
+                <NewsContent data={landingPage.categories} />
+
+                <Testimony />
             </div>
         )
     }

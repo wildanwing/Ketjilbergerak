@@ -1,15 +1,17 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link, Redirect } from 'react-router-dom';
 import { signout } from './helpers/auth';
 import { ToastContainer, toast } from 'react-toastify';
 import './assets/css/App.css';
 
-import Navbar from './components/NavBar';
+
+
 
 
 function App({ history }) {
   return (
-    <Navbar />
+    <div>
+    </div>
     // <div className='min-h-screen bg-gray-100 text-gray-900 flex justify-center'>
     //         <ToastContainer />
     //   <div className='max-w-screen-xl m-0 sm:m-20 bg-white shadow sm:rounded-lg flex justify-center flex-1'>

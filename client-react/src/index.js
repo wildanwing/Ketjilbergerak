@@ -32,21 +32,24 @@ import AdminRoute from './Routes/AdminRoute';
 import 'react-toastify/dist/ReactToastify.css';
 import UpdateDonasi from './screens/UpdateDonasi.jsx';
 import Navbar from './components/NavBar';
+import Footer from './components/Footer';
+import EditProfil from './screens/EditProfilePage';
+import HistoryDOnation from './screens/HistoryDonationPage';
+import NewsPage from './screens/NewsPage';  
+import UpdateActivity from './screens/UpdateActivityPage';
 
 
 ReactDOM.render(
   <div> 
   <App />
+  <Navbar />
   <BrowserRouter>
     <Switch>
-      {/* <Route path='/' exact render={props => <App {...props}  />} /> */}
       <Route exact path="/" render={props => <Home {...props} />} />
       <Route exact path='/home' component={Home} />
       <Route exact path='/about' component={About} />
-      <Route exact path='/donasi' component={Donasi} />
-      <Route exact path='/news' component={News} />
-      {/* <Route exact path='/login' component={Login} />
-      <Route exact path='/register' component={SignUp} /> */}
+      <Route exact path='/Donasi' component={Donasi} />
+      <Route exact path='/news' component={News} />   
 
       <Route exact path='/readnext' component={Readnext} />
       <Route exact path='/readnext1' component={Readnext1} />
@@ -59,15 +62,21 @@ ReactDOM.render(
       <Route path='/users/password/forgetsuccess' exact render={props => <ForgetSuccess {...props} />} />
       <Route path='/users/Verification' exact render={props => <Verification {...props} />} />
       <Route path='/users/VerifSuccess' exact render={props => <VerifSuccess {...props} />} />
-      <Route path='/users/ProgramDonasi/UpdateDonasi' exact render={props => <UpdateDonasi {...props} />} />
       <Route path='/users/password/reset/:token' exact render={props => <ResetPassword {...props} />} />
-      <Route path='/users/Reset' exact render={props => <Reset {...props} />} />
-      <Route path='/users/activate/:token' exact render={props => <Activate {...props} />} />    
+      <Route path='/users/activate/:token' exact render={props => <Activate {...props} />} /> 
+      <Route path='/users/Donasi' exact render={props => <NewsPage {...props} />} />
+      <Route path='/users/NewsPage' exact render={props => <NewsPage {...props} />} />
+      <Route path='/ProgramDonasi/UpdateDonasi' exact render={props => <UpdateDonasi {...props} />} /> 
+      <Route path='/ProgramDonasi/UpdateActivity' exact render={props => <UpdateActivity {...props} />} />
+      <Route path='/Profile/HistoryDonation' exact render={props => <HistoryDOnation {...props} />} />
+      <Route path='/Profile/EditProfile' exact render={props => <EditProfil {...props} />} />   
+      <Route path='/Profile/Reset' exact render={props => <Reset {...props} />} />
       <PrivateRoute path="/private" exact component={Private} />
        <AdminRoute path="/admin" exact component={Admin} />
       <Redirect to='/' />
     </Switch>
   </BrowserRouter>
+  <Footer />
   </div>,
   document.getElementById('root')
 );
