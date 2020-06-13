@@ -41,26 +41,35 @@
     margin-bottom: 64px;
 }
 
-.vidcapt{
-    width: 591px;
-    height: 260px;
+.vid{
     margin-bottom: 128px;
+}
+.vidcapt{
+    position: absolute;
+    width: 591px;
+    height: 279px;
 
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 21px;
+    font-size: 20px;
+    line-height: 35px;
+    /* or 175% */
 
+    text-align: justify;
     /* warna tulisan */
 
     color: #3C3C3C;
 }
 
+.ig{
+    color: #F43B31;
+}
+
 .caption1a{
     position: absolute;
-    left: 14.5%;
-    top: 1300px;
+    left: 96px;
+    top: 225px;
     
     font-family: Poppins;
     font-style: normal;
@@ -82,8 +91,8 @@
 
 .caption2a{
     position: absolute;
-    left: 42.8%;
-    top: 1300px;
+    left: 90px;
+    top: 230px;
   
     font-family: Poppins;
     font-style: normal;
@@ -105,8 +114,8 @@
 
 .caption3a{
     position: absolute;
-    left: 72%;
-    top: 1300px;
+    left: 96px;
+    top: 225px;
   
     font-family: Poppins;
     font-style: normal;
@@ -134,9 +143,11 @@
 
 .caption1ab{
     position: absolute;
-    left: 10%;
-    right: 67.78%;
-    top: 1350px;
+    left: 25px;
+    top: 275px;
+    width: 328px;
+    height: 169px;
+    padding: 10px 15px;
 
     font-family: Poppins;
     font-style: normal;
@@ -144,7 +155,6 @@
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    text-transform: lowercase;
 
     /* tulisan grey */
 
@@ -153,9 +163,11 @@
 
 .caption2ab{
     position: absolute;
-    left: 38.61%;
-    right: 38.61%;
-    top: 1350px;
+    left: 25px;
+    top: 275px;
+    width: 328px;
+    height: 169px;
+    padding: 10px 15px;
 
     font-family: Poppins;
     font-style: normal;
@@ -163,7 +175,6 @@
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    text-transform: lowercase;
 
     /* tulisan grey */
 
@@ -172,9 +183,11 @@
 
 .caption3ab{
     position: absolute;
-    left: 67.78%;
-    right: 10%;
-    top: 1350px;
+    left: 25px;
+    top: 275px;
+    width: 328px;
+    height: 169px;
+    padding: 10px 15px;
 
     font-family: Poppins;
     font-style: normal;
@@ -182,8 +195,6 @@
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    text-transform: lowercase;
-
     /* tulisan grey */
 
     color: #7C7C7C;
@@ -206,106 +217,43 @@
 .pic{
     width: 262px;
     height: 262px;
-    margin: 0px 50px 161px ;
+    margin: 0px 145px 217px ;
+    display: inline-block;
 }
 
 .nama{
     position: absolute;
     width: 267px;
     height: 33px;
-    left: 159px;
-    top: 2025px;
+    left: 260px;
+    top: 2110px;
 }
 
 .role{
     position: absolute;
     width: 267px;
     height: 36px;
-    left: 211px;
-    top: 2060px;
+    left: 335px;
+    top: 2150px;
 }
 
 .nama1{
     position: absolute;
     width: 267px;
     height: 33px;
-    left: 535px;
-    top: 2025px;
+    left: 820px;
+    top: 2110px;
 }
 
 .role1{
     position: absolute;
     width: 267px;
     height: 36px;
-    left: 598px;
-    top: 2060px;
+    left: 870px;
+    top: 2150px;
 }
 
-.nama2{
-    position: absolute;
-    width: 267px;
-    height: 33px;
-    left: 893px;
-    top: 2025px;
-}
-
-.role2{
-    position: absolute;
-    width: 267px;
-    height: 36px;
-    left: 955px;
-    top: 2060px;
-}
-
-.nama3{
-    position: absolute;
-    width: 267px;
-    height: 33px;
-    left: 159px;
-    top: 2450px;
-}
-
-.role3{
-    position: absolute;
-    width: 267px;
-    height: 36px;
-    left: 265px;
-    top: 2485px;
-}
-
-.nama4{
-    position: absolute;
-    width: 267px;
-    height: 33px;
-    left: 533px;
-    top: 2450px;
-}
-
-.role4{
-    position: absolute;
-    width: 267px;
-    height: 36px;
-    left: 560px;
-    top: 2485px;
-}
-
-.nama5{
-    position: absolute;
-    width: 267px;
-    height: 33px;
-    left: 895px;
-    top: 2450px;
-}
-
-.role5{
-    position: absolute;
-    width: 267px;
-    height: 36px;
-    left: 945px;
-    top: 2485px;
-}
-
-.nama, .nama1, .nama2, .nama3, .nama4, .nama5{
+.nama, .nama1 {
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
@@ -320,7 +268,7 @@
     color: #3C3C3C;
 }
 
-.role, .role1, .role2, .role3, .role4, .role5{
+.role, .role1 {
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;

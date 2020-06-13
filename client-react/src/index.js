@@ -9,13 +9,13 @@ import 'bootstrap/dist/css/bootstrap.css';
 import Home from './components/Home';
 import About from './screens/About';
 import Donasi from './screens/Donasi';
-import News from './screens/News';
+import News from './screens/NewsPage';
 import Login from './screens/Login';
 import SignUp from './screens/Register';
 
-import Readnext from './screens/Readnext';
-import Readnext1 from './screens/Readnext1';
-import Readnext2 from './screens/Readnext2';
+import Readnext from './screens/NewsPage';
+import Readnext1 from './screens/News2';
+import Readnext2 from './screens/News';
 
 import Register from './screens/Register.jsx';
 import Activate from './screens/Activate.jsx';

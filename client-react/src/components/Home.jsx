@@ -16,9 +16,9 @@ import ilmu from '../assets/images/ilmu.png';
 import counter from '../assets/images/counterbanner.svg';
 import readnext from '../assets/images/button.png';
 
-import Readnext from '../screens/Readnext';
-import Readnext1 from '../screens/Readnext1';
-import Readnext2 from '../screens/Readnext2';
+import Readnext from '../screens/News';
+import Readnext1 from '../screens/News2';
+import Readnext2 from '../screens/News';
 
 import NewsContent from "../components/NewsContent";
 import Testimony from "../components/Testimony";
@@ -58,7 +58,7 @@ class Home extends React.Component{
                         <div className="carousel-item active" data-interval="10000">
                             <img src={carousel2} className="d-block w-100" alt="carousel1.jpg" />
                             <div className="carousel-caption d-none d-md-block ccapt">
-                                <p>Makanan sehat adalah hak semua orang. Makan makanan sehat memberikan energi yang baik untuk tubuh. Energi baik mendorong lahirnya pikiran-pikiran baik dan perbuatan-perbuatan baik.</p>
+                                <p className="text-left">Makanan sehat adalah hak semua orang. Makan makanan sehat memberikan energi yang baik untuk tubuh. Energi baik mendorong lahirnya pikiran-pikiran baik dan perbuatan-perbuatan baik.</p>
                                 <br />
                                 <a href="/readnext"><img src={readnext} alt="readnext.jpg" className="readnext" /></a>
                             </div>
@@ -66,7 +66,7 @@ class Home extends React.Component{
                         <div class="carousel-item" data-interval="2000">
                             <img src={carousel3} className="d-block w-100" alt="carousel2.jpg" />
                             <div className="carousel-caption d-none d-md-block ccapt">
-                                <p>PT. Super salurkan sembako ke masyarakat kelompok rentan sebanyak 1.000 paket sembako ke sejumlah wilayah di Yogyakarta.</p>
+                                <p className="text-left">PT. Super salurkan sembako ke masyarakat kelompok rentan sebanyak 1.000 paket sembako ke sejumlah wilayah di Yogyakarta.</p>
                                 <br />
                                 <br />
                                 <a href="/readnext1"><img src={readnext} alt="readnext.jpg" className="readnext"/></a>
@@ -75,7 +75,7 @@ class Home extends React.Component{
                         <div class="carousel-item">
                             <img src={carousel4} className="d-block w-100" alt="carousel3.jpg" />
                             <div className="carousel-caption d-none d-md-block ccapt">
-                                <p>Ramadan tahun ini jelas beda. Masa pandemi membuat semua lini kehidupan jadi lebih sulit dari biasanya. Termasuk efek kesulitan untuk mencukupi kebutuhannya.</p>
+                                <p className="text-left">Ramadan tahun ini jelas beda. Masa pandemi membuat semua lini kehidupan jadi lebih sulit dari biasanya. Termasuk efek kesulitan untuk mencukupi kebutuhannya.</p>
                                 <br />
                                 <br />
                                 <a href="/readnext2"><img src={readnext} alt="readnext.jpg" className="readnext"/></a>
@@ -103,13 +103,20 @@ class Home extends React.Component{
                 <br />
                 <br />
 
-                <div>
-                    <img src={rasa} className="shadow border1 rasa" alt="sambung rasa.jpg" />
+                <div className="row">
+                    <div className="col">
+                        <img src={rasa} className="shadow border1 rasa" alt="sambung rasa.jpg" />
                         <p className="caption1">Sambung Rasa</p>
-                    <img src={karsa} className="shadow border1 karsa" alt="sambung karsa.jpg" />
+                    </div>
+                    <div className="col">
+                        <img src={karsa} className="shadow border1 karsa" alt="sambung karsa.jpg" />
                         <div className="caption2"><p>Sambung Karsa</p></div>
-                    <img src={ilmu} className="shadow border1 ilmu" alt="sambung ilmu.jpg" />
-                    <div className="caption3"><p>Sambung Ilmu</p></div>
+                    </div>
+                    <div className="col">
+                       <img src={ilmu} className="shadow border1 ilmu" alt="sambung ilmu.jpg" />
+                        <div className="caption3"><p>Sambung Ilmu</p></div> 
+                    </div>
+                    
                 </div>
 
                 <br />
@@ -119,9 +126,6 @@ class Home extends React.Component{
                 <div>
                     <img src={counter} alt="counter.svg" className="counter" />
                 </div>
-                <NewsContent data={landingPage.categories} />
-
-                <Testimony />
             </div>
         )
     }

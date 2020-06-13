@@ -5,6 +5,7 @@ import {
     Route,
   } from "react-router-dom";
 import logo from '../assets/images/logo.svg';
+import ppcoba from '../assets/images/ppcoba.jpg'
 // import { Container, Row} from 'bootstrap';
 
 
@@ -36,7 +37,8 @@ class NavBar extends React.Component{
                             <li className="nav-item">
                                 <a className="nav-link btn-navbar" href="/news"> Berita </a>
                             </li>
-                            <li className="nav-item navbtn">
+                            {/* ketika belum login */}
+                            {/* <li className="nav-item navbtn">
                                 <a className="nav-link" href="/login">
                                     <button className="btn1  " type="submit">Masuk</button>
                                 </a>
@@ -45,7 +47,12 @@ class NavBar extends React.Component{
                                 <a className="nav-link" href="/register">
                                     <button className="btn1" type="submit">Daftar</button>
                                 </a>
-                            </li>
+                            </li> */}
+                            {/* sudah login */}
+                            <p className="WUsername">Tinky Winky</p>
+                            <img src={ppcoba} alt="profileimg.jpg" className="ppcoba" />
+                            {/* <p className="WUsername">{this.state.username}</p> */}
+                            {/* <img src={this.state.profileimage} alt="profileimg.jpg" /> */}
                             </ul>
                         </div>
                         </nav>
