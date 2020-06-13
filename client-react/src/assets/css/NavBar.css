@@ -94,3 +94,28 @@
     background-color: #F43B31;
 }
   
+.WUsername{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 20px;
+
+    /* merah */
+
+    color: #F43B31;
+
+}
+
+.ppcoba{
+    width: 32px;
+    height: 32px;
+    margin-top: 25px;
+}
